@@ -53,24 +53,24 @@ createdb app
 then to create all the database tables
 
 ```
-python3 manager.py db upgrade
+python manager.py db upgrade
 ```
 
 and to seed the database
 
 ```
-python3 manager.py seed
+python manager.py seed
 ```
 
 to run the app
 
 ```
-sh runserver.sh
+./runserver.sh
 ```
 
-and to stop/kill front-end and back-end:
+and to kill front-end and back-end:
 
 ```
-sh kill.sh # on linux replace sh with bash
+./kill.sh
 ```
 
